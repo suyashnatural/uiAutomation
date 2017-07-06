@@ -1,0 +1,7 @@
+====== Starting verifyLoginWithInvalidCredentials Test ======
+clicked on sign in and object is :- [[FirefoxDriver: firefox on ANY (a35ceae0-3553-6c45-acd6-d56d8c9053dd)] -> class name: login]
+entered email address is :- test@gmail.com and object is :-[[FirefoxDriver: firefox on ANY (a35ceae0-3553-6c45-acd6-d56d8c9053dd)] -> id: email]
+entered password is :- password and object is :- [[FirefoxDriver: firefox on ANY (a35ceae0-3553-6c45-acd6-d56d8c9053dd)] -> id: passwd]
+clicked on submit button and object is :-[[FirefoxDriver: firefox on ANY (a35ceae0-3553-6c45-acd6-d56d8c9053dd)] -> css selector: #SubmitLogin]
+error message is :- Authentication failed.
+====== Finished verifyLoginWithInvalidCredentials Test ======
