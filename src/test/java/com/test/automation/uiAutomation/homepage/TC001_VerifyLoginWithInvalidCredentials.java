@@ -23,11 +23,11 @@ public class TC001_VerifyLoginWithInvalidCredentials extends TestBase{
 
 	@Test
 	public void verifyLoginWithInvalidCredentials(){
-		log.info("====== Starting verifyLoginWithInvalidCredentials Test ======");
+		log.info("====== Starting TC001_VerifyLoginWithInvalidCredentials ======");
 		homepage = new HomePage(driver);
 		homepage.loginToApplication("test@gmail.com", "password");
 		Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");
-		log.info("====== Finished verifyLoginWithInvalidCredentials Test ======");
+		log.info("====== Finished TC001_VerifyLoginWithInvalidCredentials ======");
 	}
 	
 	@AfterTest
