@@ -125,3 +125,70 @@ asserting if logout is displayed after successful user registration
 clicking on sign in button and object is:- [[ChromeDriver: chrome on MAC (e3b4d64a5a3f462670c0d8402612a09f)] -> class name: login]
 providing signup email and object is:- [[ChromeDriver: chrome on MAC (e3b4d64a5a3f462670c0d8402612a09f)] -> css selector: #email_create]
 clicking on create account button and object is:- [[ChromeDriver: chrome on MAC (e3b4d64a5a3f462670c0d8402612a09f)] -> id: SubmitCreate]
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (8bb3e702c9b92cb4a1ab5b85788600eb)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (8bb3e702c9b92cb4a1ab5b85788600eb)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (8bb3e702c9b92cb4a1ab5b85788600eb)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======
+====== Starting TC003_VerifyLoginWithDifferentRecords ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> class name: login]
+entered email address is :- ram1@gmail.com and object is :-[[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> id: passwd]
+clicked on submit button and object is :-Proxy element for: DefaultElementLocator 'By.cssSelector: #SubmitLogin'
+logout is displayed and object is:- [[ChromeDriver: chrome on MAC (317b0b73c173536738a059aff4877ad2)] -> css selector: .logout]
+clicked on logout and object is:- Proxy element for: DefaultElementLocator 'By.cssSelector: .logout'
+====== Finished TC003_VerifyLoginWithDifferentRecords ======

@@ -7,7 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class HomePage {
+import com.test.automation.uiAutomation.testBase.TestBase;
+
+public class HomePage extends TestBase {
 
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 
@@ -209,7 +211,19 @@ public class HomePage {
 		log.info("clicking on register user button and object is: " + registerUser.toString());
 	}
 
-	public Boolean assertSuccessfulLogin() {
-		return logout.isDisplayed();
+	public boolean assertSuccessfulLogin() {
+		try {
+			//waitForElement(300, logout);
+			logout.isDisplayed();
+			log.info("logout is displayed and object is:- " + logout.toString());
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	public void clickOnLogout() {
+		logout.click();
+		log.info("clicked on logout and object is:- " + logout.toString());
 	}
 }
