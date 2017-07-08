@@ -37,6 +37,7 @@ public class TC003_VerifyLoginWithDifferentRecords extends TestBase {
 		homepage = new HomePage(driver);
 		homepage.loginToApplication(email, password);
 		boolean status = homepage.assertSuccessfulLogin();
+		getScreenShot("testLoginWithDifferentRecords_"+email);
 		if (status) {
 			homepage.clickOnLogout();
 		}

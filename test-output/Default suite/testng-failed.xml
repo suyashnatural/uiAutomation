@@ -5,7 +5,7 @@
     <classes>
       <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
         <methods>
-          <include name="testLoginWithDifferentRecords" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="testLoginWithDifferentRecords" invocation-numbers="1"/>
           <include name="end"/>
           <include name="setUp"/>
         </methods>
