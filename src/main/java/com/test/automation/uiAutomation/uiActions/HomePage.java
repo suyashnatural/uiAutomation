@@ -13,8 +13,15 @@ import com.test.automation.uiAutomation.testBase.TestBase;
 public class HomePage extends TestBase {
 
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
-
+	
 	WebDriver driver;
+	
+	public final String women = "Women";
+	public final String tops = "Tops";
+	public final String dresses = "Dresses";
+	public final String printed_dress = "Printed Dress";
+	public final String printed_summer_dress = "Printed Summer Dress";
+	public final String blouse = "Blouse";
 
 	@FindBy(className = "login1")
 	WebElement signIn;
@@ -118,6 +125,7 @@ public class HomePage extends TestBase {
 	 *            we'll get the NullPointerException
 	 */
 	public HomePage(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -229,12 +237,17 @@ public class HomePage extends TestBase {
 	}
 	
 	public void clickOnNavigationMenu(String menuName){
-		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul/li[contains(text(), '"+menuName+"') and @title='"+menuName+"']/a")).click();;
+		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul/li/a[contains(text(), '"+menuName+"') and @title='"+menuName+"']")).click();;
 		log.info("clicked on:- " + menuName + " navigation menu.");
 	}
 	
 	public void clickOnCategory(String category){
-		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul/li[1]/ul/li/a[contains(text(), '"+category+"') and @title='"+category+"']")).click();
+		driver.findElement(By.xpath("//ul[@class='tree dynamized']/li/a[contains(text(), '"+category+"')]")).click();
 		log.info("clicked on:- " + category + " category submenu.");
+	}
+	
+	public void clickOnSubCategory(String subCategory){
+		driver.findElement(By.xpath("//ul[@style='display: block;']/li/a[contains(text(),'"+subCategory+"')]")).click();
+		log.info("clicked on:- " + subCategory + " subcategory submenu.");
 	}
 }

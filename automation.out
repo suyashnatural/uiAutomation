@@ -287,3 +287,29 @@ asserting if logout is displayed after successful user registration
 ====== Finished TC002_VerifyRegistration ======
 ====== Starting TC002_VerifyRegistration ======
 ====== Starting TC002_VerifyRegistration ======
+====== Starting TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+clicked on:- Women navigation menu.
+clicked on:- Dresses category submenu.
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+clicked on:- Women navigation menu.
+clicked on:- Dresses category submenu.
+Printed Chiffon Dress has been selected
+====== Finished TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+clicked on:- Women navigation menu.
+clicked on:- Dresses category submenu.
+Printed Chiffon Dress has been selected
+====== Finished TC001_VerifyAddToCart ======
+browser closed

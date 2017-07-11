@@ -88,7 +88,11 @@ public class TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+	}
+	
+	public void closeBrowser(){
+		driver.quit();
+		log.info("browser closed");
 	}
 	
 }

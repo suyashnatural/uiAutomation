@@ -31,7 +31,7 @@ public class TC002_VerifyRegistration extends TestBase {
 
 	@AfterTest
 	public void end() {
-		driver.close();
+		closeBrowser();
 	}
 
 }

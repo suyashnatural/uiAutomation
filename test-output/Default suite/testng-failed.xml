@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart">
         <methods>
-          <include name="testLoginWithDifferentRecords" invocation-numbers="1"/>
-          <include name="end"/>
           <include name="setUp"/>
+          <include name="end"/>
+          <include name="verifyAddToCart"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
