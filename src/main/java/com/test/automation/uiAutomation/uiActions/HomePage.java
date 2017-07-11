@@ -1,6 +1,7 @@
 package com.test.automation.uiAutomation.uiActions;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,7 +16,7 @@ public class HomePage extends TestBase {
 
 	WebDriver driver;
 
-	@FindBy(className = "login")
+	@FindBy(className = "login1")
 	WebElement signIn;
 
 	@FindBy(id = "email")
@@ -140,7 +141,7 @@ public class HomePage extends TestBase {
 		signIn.click();
 		log.info("clicking on sign in button and object is:- " + signIn.toString());
 
-		createEmail.sendKeys("ram3@gmail.com");
+		createEmail.sendKeys(System.currentTimeMillis()+"@gmail.com");
 		log.info("providing signup email and object is:- " + createEmail.toString());
 
 		submitCreate.click();
@@ -225,5 +226,15 @@ public class HomePage extends TestBase {
 	public void clickOnLogout() {
 		logout.click();
 		log.info("clicked on logout and object is:- " + logout.toString());
+	}
+	
+	public void clickOnNavigationMenu(String menuName){
+		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul/li[contains(text(), '"+menuName+"') and @title='"+menuName+"']/a")).click();;
+		log.info("clicked on:- " + menuName + " navigation menu.");
+	}
+	
+	public void clickOnCategory(String category){
+		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul/li[1]/ul/li/a[contains(text(), '"+category+"') and @title='"+category+"']")).click();
+		log.info("clicked on:- " + category + " category submenu.");
 	}
 }

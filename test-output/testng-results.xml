@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[<a href='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/testLoginWithDifferentRecords_ram1@gmail.com_08_07_2017_07_41_59.png'> <img src='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/testLoginWithDifferentRecords_ram1@gmail.com_08_07_2017_07_41_59.png'height='100' width='100'/> </a>]]>
+      <![CDATA[Test started and running: verifyRegistration]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/failure_screenshots/verifyRegistration_10_07_2017_08_41_29.png'> <img src='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/failure_screenshots/verifyRegistration_10_07_2017_08_41_29.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="129506" started-at="2017-07-08T23:40:52Z" finished-at="2017-07-08T23:43:01Z">
+  <suite name="Regression Suite" duration-ms="65893" started-at="2017-07-11T00:40:24Z" finished-at="2017-07-11T00:41:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="129506" started-at="2017-07-08T23:40:52Z" finished-at="2017-07-08T23:43:01Z">
-      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@56ef9176]" name="setUp" is-config="true" duration-ms="4589" started-at="2017-07-08T19:40:52Z" finished-at="2017-07-08T19:40:56Z">
+    <test name="TC002" duration-ms="65893" started-at="2017-07-11T00:40:24Z" finished-at="2017-07-11T00:41:30Z">
+      <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration@5cb9f472]" name="setUp" is-config="true" duration-ms="4860" started-at="2017-07-10T20:40:24Z" finished-at="2017-07-10T20:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLoginWithDifferentRecords(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@56ef9176]" name="testLoginWithDifferentRecords" duration-ms="124116" started-at="2017-07-08T19:40:57Z" data-provider="loginData" finished-at="2017-07-08T19:43:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ram1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/testLoginWithDifferentRecords_ram1@gmail.com_08_07_2017_07_41_59.png'> <img src='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/testLoginWithDifferentRecords_ram1@gmail.com_08_07_2017_07_41_59.png'height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testLoginWithDifferentRecords -->
-        <test-method status="SKIP" signature="testLoginWithDifferentRecords(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@56ef9176]" name="testLoginWithDifferentRecords" duration-ms="1" started-at="2017-07-08T19:43:01Z" data-provider="loginData" finished-at="2017-07-08T19:43:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ram1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[n]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
+        <test-method status="FAIL" signature="verifyRegistration()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration@5cb9f472]" name="verifyRegistration" duration-ms="60275" started-at="2017-07-10T20:40:29Z" finished-at="2017-07-10T20:41:29Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[user marked this record as no run:- n]]>
+              <![CDATA[Unable to locate element: .login1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Suyashs-MacBook-Pro.local', ip: '2606:a000:6604:a100:0:0:0:2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/6b/sr3vfb_s5_q1mzl_7tb1b5zm0000gn/T/rust_mozprofile.1qWYhYMwAUxm, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=16.6.0, moz:processID=1427.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: 2f7d747c-1c78-bb40-85dd-3563d03c892f
+*** Element info: {Using=class name, value=login1}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: user marked this record as no run:- n
-	at com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.testLoginWithDifferentRecords(TC003_VerifyLoginWithDifferentRecords.java:34)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .login1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Suyashs-MacBook-Pro.local', ip: '2606:a000:6604:a100:0:0:0:2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/6b/sr3vfb_s5_q1mzl_7tb1b5zm0000gn/T/rust_mozprofile.1qWYhYMwAUxm, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=16.6.0, moz:processID=1427.0, browserName=firefox, javascriptEnabled=true, platformName=darwin}]
+Session ID: 2f7d747c-1c78-bb40-85dd-3563d03c892f
+*** Element info: {Using=class name, value=login1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:493)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.test.automation.uiAutomation.uiActions.HomePage.registerUser(HomePage.java:141)
+	at com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration.verifyRegistration(TC002_VerifyRegistration.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,15 +84,21 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Test started and running: verifyRegistration]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/failure_screenshots/verifyRegistration_10_07_2017_08_41_29.png'> <img src='/Users/suyashnande/Documents/workspace/uiAutomation/src/main/java/com/test/automation/uiAutomation/failure_screenshots/verifyRegistration_10_07_2017_08_41_29.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testLoginWithDifferentRecords -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@56ef9176]" name="end" is-config="true" duration-ms="119" started-at="2017-07-08T19:43:01Z" finished-at="2017-07-08T19:43:01Z">
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration@5cb9f472]" name="end" is-config="true" duration-ms="72" started-at="2017-07-10T20:41:30Z" finished-at="2017-07-10T20:41:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration -->
+    </test> <!-- TC002 -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
