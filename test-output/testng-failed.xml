@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart">
+      <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials">
         <methods>
-          <include name="setUp"/>
           <include name="end"/>
-          <include name="verifyAddToCart"/>
+          <include name="setUp"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

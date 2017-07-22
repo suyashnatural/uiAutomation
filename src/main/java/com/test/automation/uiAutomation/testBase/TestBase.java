@@ -27,7 +27,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	String url = "http://automationpractice.com/index.php";
-	String browser = "firefox";
+	String browser = "chrome";
 	Excel_Reader excelReader;
 
 	public void init() {

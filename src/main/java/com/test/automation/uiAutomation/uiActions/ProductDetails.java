@@ -32,7 +32,7 @@ public class ProductDetails extends TestBase {
 	
 	public void selectProduct(String product){
 		driver.findElement(By.xpath("//a[@class='product_img_link']/img[@title='"+product+"']")).click();
-		log.info(product +" has been selected");
+		log.info("product "+ product +" has been selected");
 	}
 	
 	public List<WebElement> selectProducts(){

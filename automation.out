@@ -313,3 +313,44 @@ clicked on:- Dresses category submenu.
 Printed Chiffon Dress has been selected
 ====== Finished TC001_VerifyAddToCart ======
 browser closed
+====== Starting TC002_VerifyRegistration ======
+browser closed
+====== Starting TC002_VerifyRegistration ======
+browser closed
+====== Starting TC002_VerifyRegistration ======
+browser closed
+====== Starting TC001_VerifyLoginWithInvalidCredentials ======
+====== Starting TC001_VerifyLoginWithInvalidCredentials ======
+====== Starting TC001_VerifyLoginWithInvalidCredentials ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (26dc6506dc6402a755e549b571daa8f8)] -> class name: login]
+entered email address is :- test@gmail.com and object is :-[[ChromeDriver: chrome on MAC (26dc6506dc6402a755e549b571daa8f8)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (26dc6506dc6402a755e549b571daa8f8)] -> id: passwd]
+clicked on submit button and object is :-[[ChromeDriver: chrome on MAC (26dc6506dc6402a755e549b571daa8f8)] -> css selector: #SubmitLogin]
+error message is :- Authentication failed.
+====== Finished TC001_VerifyLoginWithInvalidCredentials ======
+====== Starting TC001_VerifyLoginWithInvalidCredentials ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (ebcd7eb30bd7768e24d52cdba9ce12f0)] -> class name: login]
+entered email address is :- test@gmail.com and object is :-[[ChromeDriver: chrome on MAC (ebcd7eb30bd7768e24d52cdba9ce12f0)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (ebcd7eb30bd7768e24d52cdba9ce12f0)] -> id: passwd]
+clicked on submit button and object is :-[[ChromeDriver: chrome on MAC (ebcd7eb30bd7768e24d52cdba9ce12f0)] -> css selector: #SubmitLogin]
+error message is :- Authentication failed.
+====== Finished TC001_VerifyLoginWithInvalidCredentials ======
+====== Starting TC001_VerifyLoginWithInvalidCredentials ======
+clicked on sign in and object is :- [[ChromeDriver: chrome on MAC (ca3e56ebffb10403fbae0143bea5aa00)] -> class name: login]
+entered email address is :- test@gmail.com and object is :-[[ChromeDriver: chrome on MAC (ca3e56ebffb10403fbae0143bea5aa00)] -> id: email]
+entered password is :- password and object is :- [[ChromeDriver: chrome on MAC (ca3e56ebffb10403fbae0143bea5aa00)] -> id: passwd]
+clicked on submit button and object is :-[[ChromeDriver: chrome on MAC (ca3e56ebffb10403fbae0143bea5aa00)] -> css selector: #SubmitLogin]
+error message is :- Authentication failed.
+====== Finished TC001_VerifyLoginWithInvalidCredentials ======
+====== Starting TC001_VerifyAddToCart ======
+clicked on Women navigation menu.
+clicked on Dresses category submenu.
+product Printed Chiffon Dress has been selected
+====== Finished TC001_VerifyAddToCart ======
+browser closed
+====== Starting TC001_VerifyAddToCart ======
+clicked on Women navigation menu.
+clicked on Dresses category submenu.
+product Printed Chiffon Dress has been selected
+====== Finished TC001_VerifyAddToCart ======
+browser closed

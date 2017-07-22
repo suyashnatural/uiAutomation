@@ -23,7 +23,7 @@ public class HomePage extends TestBase {
 	public final String printed_summer_dress = "Printed Summer Dress";
 	public final String blouse = "Blouse";
 
-	@FindBy(className = "login1")
+	@FindBy(className = "login")
 	WebElement signIn;
 
 	@FindBy(id = "email")
@@ -238,16 +238,16 @@ public class HomePage extends TestBase {
 	
 	public void clickOnNavigationMenu(String menuName){
 		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul/li/a[contains(text(), '"+menuName+"') and @title='"+menuName+"']")).click();;
-		log.info("clicked on:- " + menuName + " navigation menu.");
+		log.info("clicked on " + menuName + " navigation menu.");
 	}
 	
 	public void clickOnCategory(String category){
 		driver.findElement(By.xpath("//ul[@class='tree dynamized']/li/a[contains(text(), '"+category+"')]")).click();
-		log.info("clicked on:- " + category + " category submenu.");
+		log.info("clicked on " + category + " category submenu.");
 	}
 	
 	public void clickOnSubCategory(String subCategory){
 		driver.findElement(By.xpath("//ul[@style='display: block;']/li/a[contains(text(),'"+subCategory+"')]")).click();
-		log.info("clicked on:- " + subCategory + " subcategory submenu.");
+		log.info("clicked on " + subCategory + " subcategory submenu.");
 	}
 }
