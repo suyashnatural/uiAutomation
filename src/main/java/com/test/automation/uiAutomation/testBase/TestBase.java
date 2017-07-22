@@ -27,7 +27,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	String url = "http://automationpractice.com/index.php";
-	String browser = "chrome";
+	String browser = System.getProperty("browser"); // getting the browser through jenkins @ run time
 	Excel_Reader excelReader;
 
 	public void init() {
